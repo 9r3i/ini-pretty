@@ -6,7 +6,7 @@ ini file format with pretty style
 
 
 # sample
-
+https://relfo.vercel.app/9r3i/ini-pretty/1.0.0/
 
 
 # closing
