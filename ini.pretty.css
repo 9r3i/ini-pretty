@@ -1,0 +1,17 @@
+@font-face{font-family:'Consola';src:url('consola.ttf');}
+*{font-family:'Consola',consolas,monospace;color:#ddd;font-size:13px;}
+body{padding:0px;margin:0px;background-color:#333;overflow-x:hidden;}
+a,a span{color:#59d;text-decoration:none;}a:hover{color:#9d5;}a:hover>span{color:#9d5;}
+ul{border-left:1px dotted #ccc;padding-left:13px;margin-top:10px;}
+li{list-style:disclosure-closed;margin-bottom:10px;}
+.error{color:#b33;}
+.row-head{font-weight:bold;margin:0px;padding:10px 5px;border-top:1px solid #777;background-color:#333;}
+.row-head:hover{background-color:#444;}
+.row-data{white-space:pre;overflow:auto;width:calc(100% - 20px);margin:0px;background-color:#333;padding:10px;color:#ddd;border-top:1px solid #777;}
+span.row-comment{color:#777;font-style:italic;}
+#header:before{content:"9r3i\\ini\\reader::";}
+#header:after{content:attr(data-text);}
+#header{padding:20px;text-align:center;}
+#index{border-bottom:1px solid #777;}
+#footer:before{content:"Powered by 9r3i";}
+#footer{padding:20px;text-align:center;font-size:13px;}
